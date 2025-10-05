@@ -1,0 +1,9 @@
+﻿build:
+  gpu: false
+  python_version: "3.10"
+  python_packages:
+    - torch==2.1.0
+    - transformers==4.36.0
+    - huggingface_hub
+
+predict: "predict.py:Predictor"
