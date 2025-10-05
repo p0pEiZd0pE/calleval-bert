@@ -1,4 +1,4 @@
-﻿from cog import BasePredictor, Input
+from cog import BasePredictor, Input
 import torch
 import torch.nn as nn
 from transformers import AutoModel, AutoTokenizer
